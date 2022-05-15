@@ -1,21 +1,34 @@
-main {
- background: linear-gradient(-45deg, #46FBF5, #e73c8e, #F24016, #16D9F2);
-    background-size: 400% 400%;
-    animation: gradient 10s ease infinite;
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Rubik:wght@300;400&display=swap');
+
+body {
+  background: linear-gradient(-45deg, #3f51b1 0%, #5a55ae 13%, #7b5fac 25%, #8f6aae 38%, #a86aa4 50%, #cc6b8e 62%, #f18271 75%, #f3a469 87%, #f7c978 100% );
+  background-size:  400% 400%;
+  animation: gradient 10s ease infinite;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 @keyframes gradient {
-    0% {
-        background-position: 0% 50%;
-    }
-    50% {
-        background-position: 100% 50%;
-    }
-    100% {
-        background-position: 0% 50%;
-    }
+  0% {
+    background-position: 0%;
+  }
+  50% {
+    background-position: 100%;
+  }
+  100% {
+    background-position: 0%;
+  }
 }
-	
+
+h1 {
+  color: white;
+  font-family: Open Sans, sans-serif;
+  font-weight: 300;
+  font-size: 5rem;
+  letter-spacing:  3rem;
+}
 .icons-social a {
 	color: #FAFAFA;
 }
@@ -23,3 +36,4 @@ main {
 .icons-social a svg path{
 	fill: #FAFAFA;
 }
+
