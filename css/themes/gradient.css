@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Rubik:wght@300;400&display=swap');
 
 body {
-  background: linear-gradient( -45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab );
+  background: linear-gradient( 60deg, rgba(72,186,231,1) 11%, rgba(75,103,219,1) 39%, rgba(255,31,28,1) 100%);
   background-size:  400% 400%;
   animation: gradient 10s ease infinite;
   height: 100vh;
