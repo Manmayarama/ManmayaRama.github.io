@@ -23,7 +23,15 @@
 </head>
 
 <body onload="document.getElementById('loading').style.display = 'none';document.getElementById('content').style.display = 'block';">
-<div id="loading">Be Clam And Wait Until The Page Loads................</div>
+<div class="loader-wrapper">
+	<div id="loading">Be Clam And Wait Until The Page Loads................</div>
+      <span class="loader"><span class="loader-inner"></span></span>
+    </div>
+<script>
+        $(window).on("load",function(){
+          $(".loader-wrapper").fadeOut("slow");
+        });
+    </script>
 <div id="content" style="display:none;">
     <!-- Progress-wrapp scroll-button -->
     <div class="progress-wrap">
